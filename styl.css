@@ -372,7 +372,7 @@ html{
    
     .navbar{
         margin: 0px;
-        width: 126vw;
+        width: 160vw;
         text-align: center;
         font-size: 110px;
         font-weight: bolder;
@@ -430,7 +430,7 @@ html{
         transition: cubic-bezier(0.47, 0, 0.745, 0.715) 2s;
     }
     .withme{
-        width: 100vw;
+        width: 130vw;
     }
     .map iframe{
         width: fit-content;
@@ -440,10 +440,10 @@ html{
         margin-top: 5px;
     }
     .map{
-        width: 100vw;
+        width: 130vw;
     }
     .footer{
-        width: 100vw;
+        width: 130vw;
     }
     .myprojects div{
         display: flex;
@@ -451,7 +451,7 @@ html{
         /* width: fit-content; */
     }
     .know{
-        width: 120vw;
+        width: 160vw;
     }
     .know1{
         width: 0vw;
