@@ -1,0 +1,507 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* transition: 3s ease; */
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-image: url(img/golden.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 100vh;
+    
+}
+.navbar p{
+    padding-top: 150px;
+}
+.navhead{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    position: fixed;
+    padding-top: 0%;
+    padding: 20px 15px; 
+    height: 10.5vh;
+}
+
+.sticky{
+    background-color: rgb(167, 131, 131);
+}
+.nav-list{
+    display: flex;
+    height: 20px;
+    padding-left: 45.2vw;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    justify-content: center;
+}
+
+.navbar .navhead ul li a{
+    color: white;
+    font-size: 28px;
+}
+.port a{
+    font-size: 50px;
+    color: white;
+}
+.port a span{
+    color: darkblue;
+}
+.name{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+   
+}
+.name span {
+    font-size:60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.anim span::before {
+    
+    content: "currently studying at B.I.T. Sindri";
+    animation: animate infinite 18.8s ;
+    font-size: 60px;
+}
+@keyframes animate {
+    /* 0%{
+        content: "currently studying at B.I.T.";
+    } */
+   
+    50%{
+        content:"and i am a webdeveloper" ;
+    }
+}
+.aboutme p{
+    text-align: center;
+   }
+   .abm{
+       margin-top: 50px;
+       font-size: 50px;
+   }
+   .bd{
+    color: crimson;
+    font-size: 20px;
+   }
+   .content{
+       display: flex;
+      }
+      .content span{
+          text-align: center;
+          padding-left: 40px;
+          padding-top: 20px;
+      }
+.aboutme img{
+    border-radius: 50px;
+    height: 400px;
+    width: 400vh;
+    object-fit: cover;
+    padding-left: 100px;
+    border-color: black;
+    padding-top: 20px;
+}
+
+
+.icontent{
+    font-size: 30px;
+    color: darkblue;
+    height: 30vh;
+}
+.content span{
+    width: 50vh;
+}
+/* .icontent span::before{
+    content: "Student";
+    color: red;
+    animation: student 2s infinite;
+    font-style: italic;
+}
+@keyframes student{
+    0%{
+        content: "Student";
+    }
+    50%{
+        content: "Web Developer";
+    }
+    75%{
+        content: "Bachlor";
+    }
+} */
+.btn{
+    padding: 8px 8px;
+    background-color: gray;
+    font-size: 19px;
+}
+.btnc{
+    justify-content: center;
+    float: right;
+    padding-right: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+#sup{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    bottom: 10px; 
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+.know{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+}
+.know1{
+    display:flex;
+    flex-direction: row;
+    background:(20, 163, 220);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    margin:20px ;
+    padding: 150px;
+    border-radius: 6px;
+    border: 2px solid rgb(184, 10, 45);
+    transition: all 0.3s ease;
+}
+.cont{
+    padding-left: 40px;
+    width: 29vw;
+}
+.btnc{
+    padding-top: 25px;
+}
+.barh1{
+  display: flex;
+  flex-direction: column;
+  color: red;
+  text-align: left;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+.barh2{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    text-align: left;
+  }
+  .barh3{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    text-align: left;
+   
+  }
+  .barh4{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    text-align: left;
+    
+  }
+.bar1{
+    width: 50%;
+    background-color: white;
+    height: 40vh;
+    margin: 40px 20px;   
+    
+}
+.bar2{
+    width: 53%;
+    background-color: white;
+    height: 35vh;
+    padding-bottom: 0%;
+    margin: 69px 30px;   
+}
+.bar3{
+    width: 53%;
+    background-color: white;
+    height: 38vh;
+    margin: 50px 30px;   
+}
+.bar4{
+    width: 53%;
+    background-color: white;
+    height: 45vh;
+    margin: 8px 30px;   
+}
+.bar1 span{
+    text-align: end;
+    color: red;
+}
+
+.card img{
+    width: 300px;
+    height: 301px;
+    border-radius: 200px;
+}
+.card-body{
+    border: solid black;
+   justify-content: center;
+   background-color: brown;
+}
+.card{
+    border: solid black;
+    padding: 100px;
+    transition:   ease-out 2s;
+}
+.myprojects{
+    text-align: center;
+    padding: 100px;
+    width: fit-content;
+}
+.myprojects h1{
+    padding-bottom: 30px;
+}
+.inn{
+   display: flex;
+   flex-direction: row;
+}
+
+.card:hover{
+    width: 800px;
+    background-color: red;
+}
+
+.withme{
+   padding: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header span{
+    color: black;
+    font-size: 20px;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+}
+.mydetails p{
+    padding-left:80px;
+}
+.contact div{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.contact input{
+    border-radius: 5px;
+}
+#btn3{
+    padding: 6px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(81, 62, 99);
+}
+.btn3{
+    padding-left: 190px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding-left: 89px;
+}
+.icons div{
+    padding: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    border: solid white;
+    transition: ease-in 1s;
+}
+.footer span{
+    color: saddlebrown;
+}
+.map{
+    padding: 50px;
+    border: solid black;
+    border-radius: 75px;
+}
+.map iframe{
+    justify-content: center;
+}
+.berger{
+    right: 15px;
+    top: 30px;
+    display: none;
+    cursor: pointer;
+    /* padding-right: 50px; */
+}
+.line{
+    background-color: white;
+    margin: 5px 5px;
+    width: 39px;
+    height: 5px;
+}
+/* media quary starts */
+@media(max-width : 750px) {
+    
+   
+    .berger{
+        display: block;
+    }
+    .nav-list li{
+        list-style: none;
+        text-decoration: none;
+    }
+   
+    .navbar{
+        margin: 0px;
+        width: 126vw;
+        text-align: center;
+        font-size: 110px;
+        font-weight: bolder;
+        transition: ease-in 1s;
+        height: 100vh;
+        background-size: cover;
+        display: block; 
+        text-align: center;
+    }
+   
+    .aboutme{
+        padding-left: 0px;
+        width: 100vw;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        width: 50vw;
+    }
+    .cont{
+        padding-left: 40px;
+        width: 29vw;
+    }
+    .btnc{
+        padding-top: 25px;
+    }
+    
+    .navhead{
+        background-color: black;
+        margin: 0px;
+        height: 90vh;
+        width: 50vw;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .port {
+        margin-top:0px;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column-reverse;
+           }
+    
+    .hrespafter{
+        margin: 0px;
+        height: 0px;
+    }
+    .vresp{
+        opacity :0;
+    }
+    .sticky{
+        background-color: crimson;
+        height: 21.5vh;
+        transition: cubic-bezier(0.47, 0, 0.745, 0.715) 2s;
+    }
+    .withme{
+        width: 100vw;
+    }
+    .map iframe{
+        width: fit-content;
+    }
+    .map{
+        background-color: wheat;
+        margin-top: 5px;
+    }
+    .map{
+        width: 100vw;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .myprojects div{
+        display: flex;
+        flex-direction: column;
+        /* width: fit-content; */
+    }
+    .know{
+        width: 120vw;
+    }
+    .know1{
+        width: 0vw;
+    }
+    .know div{
+        width: 6.2vw;
+        margin: 15px 17px;
+        margin-bottom: 0px;
+    }
+    .inn{
+        width:100vw;
+    }
+   
+    
+}
+.dharm{
+    background-size: cover;
+    overflow: hidden;
+    padding-left: 80px;
+    border-right: .15rem solid orange;
+    white-space: nowrap;
+    color: orange;
+    animation: typing 8s steps(100, end) forwards infinite, blinking .8s infinite;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+  .veer{
+      overflow: hidden;
+      white-space: nowrap;
+      color: hotpink;
+      border-right: .2rem solid hotpink;
+      animation: type 8s steps(80,end) forwards infinite,blink .8s forwards infinite;
+      font-size: 1rem;
+      width: 0;
+  }
+  @keyframes type{
+      from {width: 0}
+     to{width: 100%}
+  }
+  @keyframes blink {
+      from{border-color: transparent}
+      to{
+          border-color: hotpink;
+      }
+  }
