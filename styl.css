@@ -192,6 +192,9 @@ html{
 .btnc{
     padding-top: 25px;
 }
+.btn:hover{
+    background-color: white;
+}
 .barh1{
   display: flex;
   flex-direction: column;
@@ -343,7 +346,9 @@ html{
     border-radius: 75px;
 }
 .map iframe{
-    justify-content: center;
+    
+    width: 50vw;
+    padding-left: 20vw;
 }
 .berger{
     right: 15px;
