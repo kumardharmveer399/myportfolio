@@ -104,7 +104,7 @@ html{
 .aboutme img{
     border-radius: 50px;
     height: 400px;
-    width: 400vh;
+/*     width: 400vh; */
     object-fit: cover;
     padding-left: 100px;
     border-color: black;
