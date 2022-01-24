@@ -104,7 +104,7 @@ html{
 .aboutme img{
     border-radius: 50px;
     height: 400px;
-/*     width: 400vh; */
+    /* width: 0vw; */
     object-fit: cover;
     padding-left: 100px;
     border-color: black;
@@ -190,6 +190,7 @@ html{
     width: 29vw;
 }
 .btnc{
+  
     padding-top: 25px;
 }
 .btn:hover{
@@ -267,7 +268,7 @@ html{
 .card{
     border: solid black;
     padding: 100px;
-    transition:   ease-out 2s;
+    /* transition:   ease-out 2s; */
 }
 .myprojects{
     text-align: center;
@@ -277,15 +278,24 @@ html{
 .myprojects h1{
     padding-bottom: 30px;
 }
-.inn{
-   display: flex;
-   flex-direction: row;
+.inn .card{
+    width: 41vw;
+    padding: 63px;
 }
-
-.card:hover{
+.card{
+    padding: 500px;
+    border: solid white;
+    color: wheat;
+    font-style: italic;
+}
+.main-carousel{
+    width: 90vw;
+    background-color: black;
+}
+/* .card:hover{
     width: 800px;
     background-color: red;
-}
+} */
 
 .withme{
    padding: 50px;
@@ -346,7 +356,6 @@ html{
     border-radius: 75px;
 }
 .map iframe{
-    
     width: 50vw;
     padding-left: 20vw;
 }
@@ -404,6 +413,7 @@ html{
     .btnc{
         padding-top: 25px;
     }
+   
     
     .navhead{
         background-color: black;
@@ -415,7 +425,7 @@ html{
         flex-direction: column;
     }
     .port {
-        margin-top:0px;
+        margin-top: 0px;
     }
     .nav-list{
         display: flex;
@@ -431,20 +441,18 @@ html{
     }
     .sticky{
         background-color: crimson;
-        height: 21.5vh;
+        height: 15.5vh;
         transition: cubic-bezier(0.47, 0, 0.745, 0.715) 2s;
     }
     .withme{
         width: 130vw;
     }
     .map iframe{
-        width: fit-content;
+        width: 100vw;
     }
     .map{
         background-color: wheat;
         margin-top: 5px;
-    }
-    .map{
         width: 130vw;
     }
     .footer{
@@ -453,7 +461,6 @@ html{
     .myprojects div{
         display: flex;
         flex-direction: column;
-        /* width: fit-content; */
     }
     .know{
         width: 160vw;
@@ -468,6 +475,10 @@ html{
     }
     .inn{
         width:100vw;
+    }
+    .inn .card{
+    width: 68vw;
+    padding: 70px;
     }
    
     
