@@ -441,7 +441,7 @@ html{
     }
     .sticky{
         background-color: crimson;
-        height: 15.5vh;
+        height: 22.5vh;
         transition: cubic-bezier(0.47, 0, 0.745, 0.715) 2s;
     }
     .withme{
